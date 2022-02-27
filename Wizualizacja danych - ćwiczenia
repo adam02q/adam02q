@@ -1,0 +1,159 @@
+#---------------------------------------------------26.02.2022--------------------------------------------------------
+
+# import math
+# import sys
+# print(sys.version)
+# a = 15; print(a)
+# b = 15.3; print(b)
+# c = 3+2j; print(c)
+# d = 'wizualizacja danych'
+# print(d); print(type(d))
+# #nazywa_zmiennej = wartość
+# d = 'wizualiacja danych '
+# e = 'grupa druga'
+# print(d + e)
+# f = 7
+# g = 3
+# print(f//g)
+# print(f**g)
+# print(math.pow((2/3), g))
+
+#-------------------------------------------------27.02.2022----------------------------------------------------------
+
+# if warunek 1:
+    # instrukcja
+# elif warunek 2:
+    # instrukcja warunku 2
+# elif warunen n:
+    # instrukcja warunek
+# else:
+    # instrukcja
+# a = 7
+# b = 7
+#
+# if a > b:
+#     print('liczba a jest wieksza od liczby b')
+# elif a < b:
+#     print('liczba a jest wieksza od liczby b')
+# else:
+#     print('liczby są równe')
+
+# a = input('podaj liczbe a: ')
+# b = input('podaj liczbe b: ')
+# c = input('podaj liczbe c: ')
+# d = input('podaj liczbe d: ')
+# print(a)
+# print(b)
+# print(c)
+# print(d)
+# print(type(a))
+# a = int(a)
+# b = int(b)
+# c = int(c)
+# d = int(d)
+# if (a > b) & (c > d):
+#     print('liczba a jest większa od liczby b i liczba c jest większa od liczby d')
+# else:
+#     print('liczba a nie jest większa od liczby b lub liczba c nie jest większa od liczby d')
+
+# for 'licznik' in 'sekwencja'
+#     instrukcja lub blok instrukcji
+# else
+#     instrukcje po zakończeniu działania pętli1
+# range(start,stop,step)
+# # start - element początkujący
+# # stop - element końcowy
+# # step - krok o ile zmienia element startowy i następny
+
+# for i in range(0, 6, 1):
+#     print(i)
+
+# lista = ['napis', 3, 4, 5.6]
+# for element in lista:
+#     print(element)
+# else:
+#     print('wyświetlenie elementów z listy zostało zakończone :)')
+
+# while warunek
+#     instrukcja lub blok instrukcji
+# else(else to skladnia)
+#     instrukcja lub blok instrukcji po zakońocznemu działaniu pętli while
+
+# licznik = 0
+# while licznik != 10:
+#     print(licznik)
+#     licznik += 1
+# else:
+#     print('zostało wyświetlonyh ' + str(licznik) + ' liczb')
+
+
+# ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+# lista = [4, 6, 2, 3, 5, 9, 1]
+# liczba = input('wczytaj liczbę: ')
+# licznik = 0
+# while licznik != len(lista):
+#     if int(liczba) = lista[licznik] -- 0:
+#         print(liczba = '-' + str(lista[licznik]) + ' - 0')
+#         break
+#     else:
+#         licznik += 1
+# else:
+#     print('Zadna z liczb, które są w liście nie dała odpowiedniego wyniku')
+# ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+
+# lista = [4, 6, 2, 3, 5, 9 ,1]
+# lista2 = [7, 3, 4, 6]
+# suma = []
+# for a in lista:
+#     for b in lista2:
+#         wynik = a + b
+#         suma.append(wynik)
+#     print(suma)
+#
+# try(try do składnia)
+#     operacja np. int(wczytywanej wartośći)
+#     instrukcja
+# except nazwa błędu
+#     instrukcja po tym jak ustalimy błąd
+# else
+#     blok instrukcji bez błędu
+
+# liczba = input('podaj pierwszą liczbę: ')
+# liczba2 = input('podaj drugą liczbę: ')
+# try:
+#     wynik = int(liczba) / int(liczba2)
+#     print('Wynik = ' + str(wynik))
+# except ZeroDivisionError:
+#     print('Nie dzieli się przez 0')
+# except ValueError:
+#     print('Nie wczytano liczby całkowitej')
+
+# lista = ['cos', 4.23, 5, 6, 7, [1, 2, 3]]
+# print(lista[5])
+# lista.append(9)
+# print(lista)
+# print(lista[6])
+# lista.insert(1, 'element')
+# print(lista)
+# lista.pop()
+# print(lista)
+# lista.pop(5)
+# print(lista)
+# lista.remove('element')
+# print(lista)
+# lista.extend((1, 2, 5))
+# print(lista)
+
+# slownik = {1: 22,  'klucz': 'wartość', 3.4: 5, 1: 16}
+# print(slownik)
+# slownik[4] = 45
+# print(slownik)
+# slownik.pop(4)
+# print(slownik)
+# print(slownik.keys())
+# print(slownik.values())
+#
+# ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+# del slownik
+# print(slownik)
+# ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
